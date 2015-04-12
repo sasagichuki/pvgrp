@@ -54,28 +54,18 @@ h2.logo-header {
   top: 0px;
   right: 0px; }
 
-#clicker {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  content: "";
-  margin: 0 auto;
-  border-radius: 30px;
-  text-align: center;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 600;
-  font-size: 14px;
-  opacity: 0;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  padding-top: 25px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  display: block; }
+.overlay {
+  cursor: pointer; }
+  .overlay p {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    /* vertical-align: middle; */
+    left: 0;
+    top: 0;
+    padding: 50%;
+    border: 0; }
 
 /*# sourceMappingURL=style.css.map */
