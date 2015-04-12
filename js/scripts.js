@@ -57,6 +57,15 @@ $(document).ready(function() {
       $(this).removeClass("hover");
     });
   }
+
+  $('.md-trigger').click(function(){
+    $('.md-modal').addClass("md-show");
+  });
+
+  $('.md-close').click( function(){
+    $('.md-modal').removeClass("md-show");
+  });
+  
 });
 
 
